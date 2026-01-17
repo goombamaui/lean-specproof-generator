@@ -7,8 +7,8 @@ import LeanSpecproof.Verification
 theorem challenge {a b c : ℕ} : a + (b + c) = (a + b) + c := by
   induction a with
   | zero =>
-    rw [add_comm]
+    sorry
   | succ a ih =>
-    rw [← add_assoc]
+    sorry
 #check Nat.add_assoc
 #verify_solution challenge forbids_pattern add_assoc
