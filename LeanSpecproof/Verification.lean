@@ -1,5 +1,6 @@
 
 import Lean
+import LeanSearchClient
 import Std.Data.HashSet
 import Mathlib
 
